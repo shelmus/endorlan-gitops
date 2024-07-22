@@ -33,7 +33,7 @@ spec:
     crds:
       enabled: true
     prometheusRule:
-      enabled: true
+      enabled: false
     prometheus:
       enabled: false
       serviceAccount: kube-prometheus-stack-prometheus
