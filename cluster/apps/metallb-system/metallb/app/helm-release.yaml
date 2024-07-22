@@ -32,13 +32,3 @@ spec:
   values:
     crds:
       enabled: true
-    prometheusRule:
-      enabled: false
-    prometheus:
-      enabled: false
-      serviceAccount: kube-prometheus-stack-prometheus
-      namespace: monitoring
-      podMonitor:
-        enabled: true
-      prometheusRule:
-        enabled: true
