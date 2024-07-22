@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
   - 2048-game
   - ingress
-  - metallb-system
+  # - metallb-system
