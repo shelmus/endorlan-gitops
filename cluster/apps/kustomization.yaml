@@ -4,4 +4,4 @@ resources:
   - 2048-game
   # - ingress
   # - cert-manager
-  - metallb-system
+  # - metallb-system
