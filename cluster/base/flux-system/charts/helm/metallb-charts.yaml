@@ -2,9 +2,8 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: ingress-nginx-charts
+  name: metallb-charts
   namespace: flux-system
 spec:
-  interval: 30m
-  url: https://kubernetes.github.io/ingress-nginx
-  timeout: 2m
+  interval: 10m
+  url: https://metallb.github.io/metallb
