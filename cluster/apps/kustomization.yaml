@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
   # - 2048-game
   # - ingress
-  # - cert-manager
+  - cert-manager
   - metallb-system
