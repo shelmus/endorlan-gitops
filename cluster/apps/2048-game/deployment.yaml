@@ -15,7 +15,7 @@ spec:
         app: "2048"
     spec:
       containers:
-        - image: alexwhen/docker-2048
+        - image: agrawpri/2048-docker
           imagePullPolicy: Always
           name: "2048"
           ports:
