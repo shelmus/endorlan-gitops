@@ -5,7 +5,7 @@ metadata:
   name: "${SECRET_DOMAIN/./-}"
   namespace: ingress
 spec:
-  secretName: "endsys-cloud-fvcl4"
+  secretName: "endsys-cloud"
   issuerRef:
     name: letsencrypt-production
     kind: ClusterIssuer
