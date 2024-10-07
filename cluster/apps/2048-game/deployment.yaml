@@ -26,6 +26,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: 2048-ingress
+  namespace: 2048-game
   labels:
     app: "2048"
 spec:
