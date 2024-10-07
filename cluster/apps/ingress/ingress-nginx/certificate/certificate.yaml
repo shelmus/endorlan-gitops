@@ -5,7 +5,7 @@ metadata:
   name: "${SECRET_DOMAIN/./-}"
   namespace: ingress
 spec:
-  secretName: "${SECRET_DOMAIN/./-}-tls"
+  secretName: "${SECRET_DOMAIN/./-}-fvcl4"
   issuerRef:
     name: letsencrypt-production
     kind: ClusterIssuer
