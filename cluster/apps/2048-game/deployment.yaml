@@ -40,6 +40,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: "2048"
+            name: "net-2048"
             port:
               number: 9080
