@@ -4,11 +4,11 @@ metadata:
   name: net-2048
   namespace: 2048-game
   labels:
-    app: 2048
+    app: "2048"
 spec:
   type: NodePort
   ports:
     - port: 9080
-      targetPort: 9080
+      name: http
   selector:
     app: "2048"
