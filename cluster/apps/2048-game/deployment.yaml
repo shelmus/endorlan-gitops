@@ -33,7 +33,7 @@ spec:
   ingressClassName: nginx
   tls:
   rules:
-  - host: "2048.${SECRET_DOMAIN}"
+  - host: "test1.${SECRET_DOMAIN}"
     http:
       paths:
       - path: /
